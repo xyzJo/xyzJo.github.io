@@ -1,0 +1,132 @@
+<html>
+<head>
+
+<title> Web Prog A1 </title>
+<style>
+	body {
+		font-family: sans-serif;
+		height: 100%;
+
+		/*background-image: url("HomepageBG.jpg");*/
+	}
+
+	body, html {
+		height: 100%;
+		margin: 0;
+	}
+	html { 
+  		background: url(HomepageBG.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+        -o-background-size: cover;
+  		background-size: cover;
+}
+
+	table {
+    	border-collapse: collapse;
+    	width: 100%;
+	}
+
+	td, th {
+    	border: 1px solid #dddddd;
+    	text-align: left;
+    	padding: 8px;
+	}
+
+	tr:nth-child(even) {
+    	background-color: #dddddd;
+	}
+
+	a:hover {
+		color: red;
+	}
+
+	#container {
+		height: 100%;
+		width: 100%;
+	}
+
+	#header {
+		font-size: 15pt;
+		text-align: center;
+		border-bottom: 5px black solid;
+	}
+
+	#my-pic {
+		border: 5px black solid;
+		position: relative;
+		top: 10px;
+		right: 30px;
+		width: 50%;
+		text-indent: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+		overflow: auto;
+	}
+
+	#hobbies {
+		border: 5px black solid;
+		position: relative;
+		/*bottom: 5px;*/
+		float: left;
+		overflow: auto;
+		/*left: 30px;*/
+		margin-left: 10%;
+		margin-top: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+
+	}
+
+	#menu {
+		border: 5px black solid;
+		position: relative;
+		float: right;
+		overflow: auto;
+		/*left: 30px;*/
+		margin-top: 20px;
+		margin-right: 10%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	#footer {
+		border-top: 2px black dashed;
+		border-bottom: 2px black dashed;
+		position: relative;
+		bottom: 0px;
+		margin: 20px;
+		margin-top: 70px;
+		text-align: center;
+		/*float: bottom;*/
+		overflow: auto;		
+	}
+
+	#nList {
+		margin: 10%;
+		margin-top: 22%;
+		border: 5px black solid;
+		padding: 10px;
+	}
+
+	.displayed {
+		height: auto;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.div1 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.quote {
+		font-style: italic;
+	}
+
+</style>
+</head>
+</html>
