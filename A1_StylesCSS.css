@@ -80,10 +80,17 @@
 
 	#menu {
 		border: 5px black solid;
+		margin: 10%;
+		margin-top: 22%;
+		padding: 10px;
+		
+	}
+
+	#Resume {
+		border: 5px black solid;
 		position: relative;
 		float: right;
 		overflow: auto;
-		/*left: 30px;*/
 		margin-top: 20px;
 		margin-right: 10%;
 		padding-left: 5px;
@@ -100,13 +107,6 @@
 		text-align: center;
 		/*float: bottom;*/
 		overflow: auto;		
-	}
-
-	#nList {
-		margin: 10%;
-		margin-top: 22%;
-		border: 5px black solid;
-		padding: 10px;
 	}
 
 	.displayed {
