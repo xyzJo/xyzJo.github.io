@@ -73,7 +73,7 @@
 		/*margin-left: 10%;*/
 		/*margin-top: 20px;*/
 		top: 20px;
-		left: 30px;
+		left: 50px;
 		right: 10px;
 		width: 30%;
 		padding-left: 5px;
@@ -84,8 +84,9 @@
 
 	#menu {
 		border: 5px black solid;
+		top: 30px;
 		margin: 10%;
-		margin-top: 22%;
+		/*margin-top: 20%;*/
 		padding: 10px;
 		
 	}
