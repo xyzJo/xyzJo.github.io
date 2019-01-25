@@ -69,12 +69,15 @@
 		position: relative;
 		/*bottom: 5px;*/
 		/*float: left;*/
-		/*overflow: auto;*/
 		/*left: 30px;*/
-		margin-left: 10%;
-		margin-top: 20px;
+		/*margin-left: 10%;*/
+		/*margin-top: 20px;*/
+		top: 20px;
+		right: 30px;
+		width: 30%;
 		padding-left: 5px;
 		padding-right: 5px;
+		overflow: auto;
 
 	}
 
