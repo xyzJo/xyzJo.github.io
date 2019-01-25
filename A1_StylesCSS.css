@@ -79,7 +79,7 @@
 	#menu {
 		border: 5px black solid;
 		top: 15px;
-		margin: 10%;
+		/*margin: 10%;*/
 		padding-left: 10px;
 		padding-right: 10px;
 	}
